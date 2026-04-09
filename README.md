@@ -96,6 +96,24 @@ cd frontend
 npm install
 npm run dev
 ```
+## 🔍 Search API
+
+Base URL:
+https://inventory-search-project-9cfg.onrender.com
+
+### Examples:
+
+Search by name:
+https://inventory-search-project-9cfg.onrender.com/search?q=chair
+
+Filter by category:
+https://inventory-search-project-9cfg.onrender.com/search?category=Furniture
+
+Filter by price:
+https://inventory-search-project-9cfg.onrender.com/search?minPrice=4000&maxPrice=5000
+
+Combined filters:
+https://inventory-search-project-9cfg.onrender.com/search?q=chair&category=Furniture
 
 ## 📸 Screenshots
 ### Search Results
