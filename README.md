@@ -4,6 +4,11 @@
 * Frontend: https://inventory-search-project-tp8v.vercel.app/
 * Backend: https://inventory-search-project-9cfg.onrender.com
 
+Part B (Inventory Database System):
+Backend API: https://inventory-database-project-5.onrender.com/
+GitHub: https://github.com/Khadarbeesk/inventory-database-project
+
+
 
 ## 🚀 Tech Stack
 
