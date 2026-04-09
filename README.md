@@ -1,8 +1,8 @@
 # Inventory Search API + UI
 ## 🌐 Hosted Links
 
-* Frontend: (Add your Vercel/Netlify link here)
-* Backend: (Add your Render link here)
+* Frontend: https://inventory-search-project-tp8v.vercel.app/
+* Backend: https://inventory-search-project-9cfg.onrender.com
 
 
 ## 🚀 Tech Stack
