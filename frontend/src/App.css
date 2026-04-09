@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* Card */
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #2563eb, #9333ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Search Grid */
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input,
+select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.5);
+  outline: none;
+}
+
+/* Button */
+.button-container {
+  grid-column: span 4;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #ff7a18, #ff3c8d);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(255, 60, 141, 0.4);
+}
+
+/* Table */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Table header */
+thead {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+}
+
+th {
+  padding: 12px;
+}
+
+/* Rows */
+td {
+  padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tbody tr:hover {
+  background-color: #e0e7ff;
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
+/* Price highlight */
+.price {
+  font-weight: bold;
+  color: #16a34a;
+}
+
+/* Empty state */
+.no-data {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Loader */
+.loader {
+  margin: 30px auto;
+  border: 5px solid #ddd;
+  border-top: 5px solid #ff3c8d;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .search-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .button-container {
+    grid-column: span 1;
+  }
+}
+.error {
+  margin-top: 15px;
+  color: red;
+  font-weight: bold;
+}

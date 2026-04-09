@@ -1,0 +1,36 @@
+[
+  { "id": 1, "productName": "Chair", "category": "Furniture", "price": 4500, "supplier": "IKEA" },
+  { "id": 2, "productName": "Chair", "category": "Furniture", "price": 4200, "supplier": "Urban Ladder" },
+
+  { "id": 3, "productName": "Desk", "category": "Furniture", "price": 8000, "supplier": "Urban Ladder" },
+  { "id": 4, "productName": "Desk", "category": "Furniture", "price": 7800, "supplier": "Pepperfry" },
+
+  { "id": 5, "productName": "Laptop", "category": "Electronics", "price": 75000, "supplier": "Dell" },
+  { "id": 6, "productName": "Laptop", "category": "Electronics", "price": 73000, "supplier": "Lenovo" },
+
+  { "id": 7, "productName": "Phone", "category": "Electronics", "price": 30000, "supplier": "Samsung" },
+  { "id": 8, "productName": "Phone", "category": "Electronics", "price": 28000, "supplier": "Mi" },
+
+  { "id": 9, "productName": "AC", "category": "Appliances", "price": 40000, "supplier": "LG" },
+  { "id": 10, "productName": "AC", "category": "Appliances", "price": 38000, "supplier": "Voltas" },
+
+  { "id": 11, "productName": "Fridge", "category": "Appliances", "price": 35000, "supplier": "Whirlpool" },
+
+  { "id": 12, "productName": "Table", "category": "Furniture", "price": 12000, "supplier": "Pepperfry" },
+
+  { "id": 13, "productName": "Headphones", "category": "Electronics", "price": 2500, "supplier": "Sony" },
+
+  { "id": 14, "productName": "Oven", "category": "Appliances", "price": 10000, "supplier": "IFB" },
+
+  { "id": 15, "productName": "Shelf", "category": "Furniture", "price": 6000, "supplier": "HomeTown" },
+
+  { "id": 16, "productName": "TV", "category": "Electronics", "price": 45000, "supplier": "Mi" },
+
+  { "id": 17, "productName": "Washer", "category": "Appliances", "price": 30000, "supplier": "Bosch" },
+
+  { "id": 18, "productName": "Sofa", "category": "Furniture", "price": 20000, "supplier": "Nilkamal" },
+
+  { "id": 19, "productName": "Speaker", "category": "Electronics", "price": 3000, "supplier": "JBL" },
+
+  { "id": 20, "productName": "Bed", "category": "Furniture", "price": 25000, "supplier": "IKEA" }
+]
