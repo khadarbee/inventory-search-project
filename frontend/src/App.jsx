@@ -26,7 +26,7 @@ function App() {
         maxPrice,
       });
 
-      const res = await fetch(`http://localhost:5000/search?${params}`);
+      const res = await fetch(`https://inventory-search-project-9cfg.onrender.com/search?${params}`);
 
       // ✅ HANDLE BACKEND ERROR
       if (!res.ok) {
